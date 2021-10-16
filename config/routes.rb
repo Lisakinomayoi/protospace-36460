@@ -5,5 +5,6 @@ Rails.application.routes.draw do
   resources :prototypes do
     resources :comments, only: [:index, :create]
   end
+
 end  
   
